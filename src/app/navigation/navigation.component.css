@@ -1,0 +1,72 @@
+.navbar {
+  height: 13vh;
+}
+/* Custom Navbar Styles */
+.custom-navbar {
+  background-color: #007B83; /* A professional hospital color (teal) */
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Left Side: Logo and menu */
+/* .menu-btn {
+  background-color: #FFFFFF; /* Light button color */
+  /*border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.menu-btn i {
+  color: #007B83; /* Same as navbar color */
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-left: 10px;
+  text-transform: uppercase; /* To give a clean and professional look */
+}
+
+/* Right Side: Symbols or other content */
+.navbar-right .symbols {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Hover effects */
+.menu-btn:hover {
+  background-color: #00A4A9; /* Slightly darker blue for hover effect */
+}
+
+.symbols:hover {
+  text-decoration: underline; /* Subtle hover effect */
+}
+
+/* Styling for the updated navbar */
+.custom-navbar .navbar-right .info-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0;
+}
+
+.custom-navbar .navbar-right .info-label {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.custom-navbar .navbar-right .info-text span {
+  margin-right: 10px;
+}
+

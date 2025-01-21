@@ -1,0 +1,70 @@
+.sidebar{
+  height: 100vh;
+  width: 35vh;
+  background-color: #1F2A44;
+  color: #fff;
+  position: fixed;
+  top: 13vh;
+  left: 0;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+}
+.open {
+  left: 0;
+}
+.closed {
+  left: -250px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 10px;
+}
+
+.menu-item {
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #3A4A7B; /* Slightly lighter shade of blue on hover */
+}
+
+.menu-item:active {
+  background-color: #2D3B61; /* Darker shade when clicked */
+}
+
+/* Optional sub-items for dropdown (collapsed by default) */
+.menu-item.has-submenu:hover .submenu {
+  display: block;
+}
+
+/* Submenu Styles */
+.submenu {
+  display: none;
+  padding-left: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.submenu li {
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.submenu li:hover {
+  background-color: #5A6B8C; /* Hover effect for sub-menu items */
+}
+
+/* Sidebar header */
+.sidebar-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
